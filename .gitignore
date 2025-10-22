@@ -1,0 +1,181 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+.jupyter/
+
+# IPython
+profile_default/
+ipython_config.py
+
+# Virtual Environment
+venv/
+ENV/
+env/
+.venv
+.env
+
+# PyTorch Model Files (large)
+*.pth
+*.pt
+*.ckpt
+*.weights
+
+# Dataset (large files)
+data/
+dataset/
+datasets/
+*.zip
+*.tar
+*.tar.gz
+*.rar
+
+# Results and Outputs
+results/models/*.pth
+results/models/*.pt
+results/visualizations/*.png
+results/visualizations/*.jpg
+results/part1/*.png
+results/part2/*.png
+checkpoints/
+logs/
+runs/
+outputs/
+
+# Keep directory structure but ignore large files
+!results/models/.gitkeep
+!results/visualizations/.gitkeep
+!results/part1/.gitkeep
+!results/part2/.gitkeep
+!results/reports/.gitkeep
+
+# IDE Settings
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# System Files
+Thumbs.db
+desktop.ini
+.directory
+
+# Temporary Files
+*.log
+*.tmp
+*.temp
+temp/
+tmp/
+
+# Documentation builds
+docs/_build/
+docs/.doctrees/
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# TensorBoard
+events.out.tfevents.*
+tensorboard/
+
+# Weights & Biases
+wandb/
+
+# MLflow
+mlruns/
+
+# Backup files
+*.bak
+*.backup
+*_backup.*
+
+# Compiled files
+*.pyc
+*.pyo
+
+# Large image datasets
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.tiff
+
+# Keep sample images
+!sample_*.png
+!example_*.jpg
+!demo_*.png
+
+# Keep documentation images
+!docs/*.png
+!docs/*.jpg
+!README_images/*.png
+
+# Keep small result visualizations (optional - uncomment if you want to track them)
+# !results/visualizations/*.png
+# !results/part1/*.png
+# !results/part2/*.png
+
+# CSV data files (optional - comment out if you want to track small CSVs)
+# *.csv
+
+# Pickle files
+*.pkl
+*.pickle
+
+# HDF5 files (large datasets)
+*.h5
+*.hdf5
+
+# ONNX models
+*.onnx
+
+# macOS
+.AppleDouble
+.LSOverride
+._*
+
+# Windows
+$RECYCLE.BIN/
+*.lnk
+
+# Linux
+.Trash-*
+.nfs*
