@@ -47,6 +47,7 @@ env/
 
 # Dataset (large files)
 data/
+DataSet/
 dataset/
 datasets/
 *.zip
@@ -54,7 +55,7 @@ datasets/
 *.tar.gz
 *.rar
 
-# Results and Outputs
+# Results and Outputs - Keep structure, ignore large model files
 results/models/*.pth
 results/models/*.pt
 results/visualizations/*.png
@@ -66,12 +67,26 @@ logs/
 runs/
 outputs/
 
+# Keep README files for documentation
+!results/README.md
+!results/**/README.md
+
 # Keep directory structure but ignore large files
 !results/models/.gitkeep
 !results/visualizations/.gitkeep
 !results/part1/.gitkeep
 !results/part2/.gitkeep
 !results/reports/.gitkeep
+
+# Specific project exclusions
+# Ignore timm cache and temp files
+0.9.0
+timm_cache/
+
+# Ignore backup notebooks
+*_backup.ipynb
+*_old.ipynb
+*_temp.ipynb
 
 # IDE Settings
 .vscode/
@@ -138,15 +153,17 @@ mlruns/
 *.bmp
 *.tiff
 
-# Keep sample images
+# Keep documentation and example images
 !sample_*.png
 !example_*.jpg
 !demo_*.png
-
-# Keep documentation images
 !docs/*.png
 !docs/*.jpg
 !README_images/*.png
+!**/README*.png
+
+# PDF documents (keep assignment PDFs)
+# *.pdf  # Commented out to keep assignment PDFs
 
 # Keep small result visualizations (optional - uncomment if you want to track them)
 # !results/visualizations/*.png
