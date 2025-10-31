@@ -1,0 +1,77 @@
+\relax 
+\providecommand\hyper@newdestlabel[2]{}
+\providecommand\HyField@AuxAddToFields[1]{}
+\providecommand\HyField@AuxAddToCoFields[2]{}
+\@writefile{toc}{\contentsline {section}{\numberline {1}Introduction}{3}{section.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {1.1}Problem Statement}{3}{subsection.1.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {1.2}Dataset}{3}{subsection.1.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {2}Methodology}{4}{section.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.1}Model Architecture}{4}{subsection.2.1}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {1}{\ignorespaces WasteCustomCNN Architecture}}{4}{table.caption.2}\protected@file@percent }
+\@writefile{lol}{\contentsline {lstlisting}{\numberline {1}{\ignorespaces WasteCustomCNN Model Architecture}}{4}{lstlisting.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.2}Model Specification}{5}{subsection.2.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {2.2.1}Convolutional Layers}{5}{subsubsection.2.2.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {2.2.2}Pooling Layers}{6}{subsubsection.2.2.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {2.2.3}Fully Connected Layers}{6}{subsubsection.2.2.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {2.2.4}Dropout Selection}{6}{subsubsection.2.2.4}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {2}{\ignorespaces Impact of Dropout Rate on Model Performance (LeakyReLU Activation)}}{6}{table.caption.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {2.2.5}Activation Function Selection}{7}{subsubsection.2.2.5}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {3}{\ignorespaces Activation Function Performance on Test Set}}{7}{table.caption.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {2.2.6}Model Summary}{9}{subsubsection.2.2.6}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {3}Training Configuration}{9}{section.3}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {4}{\ignorespaces Training Hyperparameters}}{9}{table.caption.5}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.1}Training Results}{10}{subsection.3.1}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {5}{\ignorespaces Training Set Performance - LeakyReLU with Dropout 0.3}}{10}{table.caption.6}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.1.1}Class-wise Metrics}{10}{subsubsection.3.1.1}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {6}{\ignorespaces Class-wise Metrics - Training Set (LeakyReLU, Dropout 0.3)}}{10}{table.caption.7}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.1.2}Confusion Matrix (Training Set)}{10}{subsubsection.3.1.2}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces Confusion Matrix for Training Set (LeakyReLU, Dropout 0.3, Adam Optimizer). The diagonal values indicate correct predictions for each class. Overall accuracy: 92.28\%.}}{11}{figure.caption.8}\protected@file@percent }
+\providecommand*\caption@xref[2]{\@setref\relax\@undefined{#1}}
+\newlabel{fig:confmat_train}{{1}{11}{Confusion Matrix for Training Set (LeakyReLU, Dropout 0.3, Adam Optimizer). The diagonal values indicate correct predictions for each class. Overall accuracy: 92.28\%}{figure.caption.8}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2}Validation Results}{11}{subsection.3.2}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {7}{\ignorespaces Validation Set Performance - LeakyReLU with Dropout 0.3}}{11}{table.caption.9}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {8}{\ignorespaces Class-wise Metrics - Validation Set (LeakyReLU, Dropout 0.3)}}{12}{table.caption.10}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.2.1}Confusion Matrix (Validation Set)}{12}{subsubsection.3.2.1}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces Confusion Matrix for Validation Set (LeakyReLU, Dropout 0.3, Adam Optimizer). The diagonal values indicate correct predictions for each class.}}{13}{figure.caption.11}\protected@file@percent }
+\newlabel{fig:confmat_val}{{2}{13}{Confusion Matrix for Validation Set (LeakyReLU, Dropout 0.3, Adam Optimizer). The diagonal values indicate correct predictions for each class}{figure.caption.11}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.3}Training Analysis}{13}{subsection.3.3}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces Training and Validation Analysis - LeakyReLU (dropout=0.3) with Adam Optimizer. Top-left: Loss progression showing convergence from 1.75 to 0.34 (training) and 1.4 to 0.28 (validation). Top-right: Accuracy progression reaching 88.50\% (training) and 91.79\% (validation) with best validation accuracy of 91.79\%. Bottom-left: Learning rate schedule using CosineAnnealingWarmRestarts from 0.0005 to near zero. Bottom-right: Overfitting analysis showing average loss gap of 0.0556 and accuracy gap of -0.0326, indicating good generalization.}}{14}{figure.caption.12}\protected@file@percent }
+\newlabel{fig:training_plots}{{3}{14}{Training and Validation Analysis - LeakyReLU (dropout=0.3) with Adam Optimizer. Top-left: Loss progression showing convergence from 1.75 to 0.34 (training) and 1.4 to 0.28 (validation). Top-right: Accuracy progression reaching 88.50\% (training) and 91.79\% (validation) with best validation accuracy of 91.79\%. Bottom-left: Learning rate schedule using CosineAnnealingWarmRestarts from 0.0005 to near zero. Bottom-right: Overfitting analysis showing average loss gap of 0.0556 and accuracy gap of -0.0326, indicating good generalization}{figure.caption.12}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces Training and Validation Analysis - ReLU (dropout=0.3) with Adam Optimizer. This plot provides a visual comparison of training and validation loss, accuracy, learning rate schedule, and overfitting analysis for the ReLU activation model.}}{15}{figure.caption.13}\protected@file@percent }
+\newlabel{fig:training_plots_relu}{{4}{15}{Training and Validation Analysis - ReLU (dropout=0.3) with Adam Optimizer. This plot provides a visual comparison of training and validation loss, accuracy, learning rate schedule, and overfitting analysis for the ReLU activation model}{figure.caption.13}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {4}Optimizer Selection and Learning Rate}{15}{section.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.1}Optimizer Selection}{15}{subsection.4.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.2}Learning Rate Selection}{17}{subsection.4.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {5}Optimizer Comparison: Adam vs. SGD}{18}{section.5}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.1}SGD Optimizer Results}{18}{subsection.5.1}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {9}{\ignorespaces SGD - Training Set Performance (Overall Metrics)}}{18}{table.caption.14}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {10}{\ignorespaces SGD - Class-wise Metrics (Training Set)}}{19}{table.caption.15}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {11}{\ignorespaces SGD - Validation Set Performance (Overall Metrics)}}{19}{table.caption.16}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {12}{\ignorespaces SGD - Class-wise Metrics (Validation Set)}}{20}{table.caption.17}\protected@file@percent }
+\newlabel{fig:sgd_confmat_train}{{5a}{20}{SGD Training Set Confusion Matrix (62.00\% accuracy)}{figure.caption.18}{}}
+\newlabel{sub@fig:sgd_confmat_train}{{a}{20}{SGD Training Set Confusion Matrix (62.00\% accuracy)}{figure.caption.18}{}}
+\newlabel{fig:sgd_confmat_val}{{5b}{20}{SGD Validation Set Confusion Matrix (60.89\% accuracy)}{figure.caption.18}{}}
+\newlabel{sub@fig:sgd_confmat_val}{{b}{20}{SGD Validation Set Confusion Matrix (60.89\% accuracy)}{figure.caption.18}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5}{\ignorespaces SGD Optimizer Confusion Matrices for Training and Validation Sets.}}{20}{figure.caption.18}\protected@file@percent }
+\newlabel{fig:sgd_confmat_comparison}{{5}{20}{SGD Optimizer Confusion Matrices for Training and Validation Sets}{figure.caption.18}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.2}SGD with Momentum Optimizer Results}{20}{subsection.5.2}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {13}{\ignorespaces SGD+Momentum - Training Set Performance (Overall Metrics)}}{21}{table.caption.19}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {14}{\ignorespaces SGD+Momentum - Class-wise Metrics (Training Set)}}{21}{table.caption.20}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {15}{\ignorespaces SGD+Momentum - Validation Set Performance (Overall Metrics)}}{21}{table.caption.21}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {16}{\ignorespaces SGD+Momentum - Class-wise Metrics (Validation Set)}}{22}{table.caption.22}\protected@file@percent }
+\newlabel{fig:sgdmomentum_confmat_train}{{6a}{22}{SGD+Momentum Training Set Confusion Matrix (86.84\% accuracy)}{figure.caption.23}{}}
+\newlabel{sub@fig:sgdmomentum_confmat_train}{{a}{22}{SGD+Momentum Training Set Confusion Matrix (86.84\% accuracy)}{figure.caption.23}{}}
+\newlabel{fig:sgdmomentum_confmat_val}{{6b}{22}{SGD+Momentum Validation Set Confusion Matrix (86.05\% accuracy)}{figure.caption.23}{}}
+\newlabel{sub@fig:sgdmomentum_confmat_val}{{b}{22}{SGD+Momentum Validation Set Confusion Matrix (86.05\% accuracy)}{figure.caption.23}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {6}{\ignorespaces SGD+Momentum Optimizer Confusion Matrices for Training and Validation Sets.}}{22}{figure.caption.23}\protected@file@percent }
+\newlabel{fig:sgdmomentum_confmat_comparison}{{6}{22}{SGD+Momentum Optimizer Confusion Matrices for Training and Validation Sets}{figure.caption.23}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.3}Chosen Performance Metrics}{22}{subsection.5.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.4}Optimizer Comparison Analysis}{24}{subsection.5.4}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {17}{\ignorespaces Three-Way Optimizer Comparison - Training and Validation Performance}}{24}{table.caption.24}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {18}{\ignorespaces Generalization Gap Analysis (Training - Validation)}}{25}{table.caption.25}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {6}Test Data Performance}{27}{section.6}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {19}{\ignorespaces Adam Optimizer - Test Set Performance (Overall Metrics)}}{27}{table.caption.26}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {20}{\ignorespaces Adam Optimizer - Class-wise Metrics (Test Set)}}{27}{table.caption.27}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {7}{\ignorespaces Adam Optimizer - Test Set Confusion Matrix (92.95\% accuracy). The confusion matrix shows strong diagonal values indicating correct predictions across all nine waste categories.}}{28}{figure.caption.28}\protected@file@percent }
+\newlabel{fig:adam_confmat_test}{{7}{28}{Adam Optimizer - Test Set Confusion Matrix (92.95\% accuracy). The confusion matrix shows strong diagonal values indicating correct predictions across all nine waste categories}{figure.caption.28}{}}
+\gdef \@abspage@last{28}
