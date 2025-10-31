@@ -1,0 +1,11 @@
+====================================================================================================
+COMPREHENSIVE MODEL COMPARISON
+====================================================================================================
+
+             Model              Type    Best Val Acc        Test Acc  Epochs Trained                LR Scheduler
+    DeepCNN (Adam)  Custom (Scratch) 0.7930 (79.30%) 0.7997 (79.97%)              20 CosineAnnealingWarmRestarts
+     DeepCNN (SGD)  Custom (Scratch) 0.7732 (77.32%)             N/A              20 CosineAnnealingWarmRestarts
+ DeepCNN (SGD+Mom)  Custom (Scratch) 0.7817 (78.17%)             N/A              20 CosineAnnealingWarmRestarts
+      ResNet-34 FT Transfer Learning 0.7479 (74.79%) 0.7497 (74.97%)              10 CosineAnnealingWarmRestarts
+EfficientNet-B0 FT Transfer Learning 0.7676 (76.76%) 0.7914 (79.14%)              10 CosineAnnealingWarmRestarts
+====================================================================================================

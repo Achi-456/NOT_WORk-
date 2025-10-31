@@ -1,0 +1,4 @@
+Optimizer,Train Accuracy,Validation Accuracy,Test Accuracy
+Adam,0.9228 (92.28%),0.9179 (91.79%),0.9295 (92.95%)
+SGD,0.6200 (62.00%),0.6089 (60.89%),0.6358 (63.58%)
+SGD+Momentum,0.8684 (86.84%),0.8605 (86.05%),0.8655 (86.55%)
